@@ -1,0 +1,56 @@
+{
+    "highlight_reel_title": "Best of [Player Name/Team Name/Game Name]",
+    "date_created": "2025-08-31",
+    "source_video_url": "https://www.youtube.com/watch?v=D9xNMnt6cxg",
+    "clips": [
+      {
+        "clip_id": "clip_001",
+        "timestamp_start": "00:05",
+        "timestamp_end": "00:15",
+        "description": "Amazing crossover and dunk by Player A",
+        "event_type": "dunk",
+        "player_involved": {
+          "name": "Player A",
+          "team": "Team X"
+        },
+        "stats_relevant": {
+          "points": 2,
+          "assists": 0,
+          "rebounds": 0
+        }
+      },
+      {
+        "clip_id": "clip_002",
+        "timestamp_start": "00:20",
+        "timestamp_end": "00:30",
+        "description": "Game-winning three-pointer from deep by Player B",
+        "event_type": "three_pointer",
+        "player_involved": {
+          "name": "Player B",
+          "team": "Team Y"
+        },
+        "stats_relevant": {
+          "points": 3,
+          "assists": 1,
+          "rebounds": 0
+        }
+      },
+      {
+        "clip_id": "clip_003",
+        "timestamp_start": "00:35",
+        "timestamp_end": "00:45",
+        "description": "Block party! Player C rejects shot and starts fast break",
+        "event_type": "block",
+        "player_involved": {
+          "name": "Player C",
+          "team": "Team X"
+        },
+        "stats_relevant": {
+          "points": 0,
+          "assists": 0,
+          "rebounds": 1,
+          "blocks": 1
+        }
+      }
+    ]
+  }
