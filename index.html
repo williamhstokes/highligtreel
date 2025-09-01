@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Haven Stokes — Highlight Reel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <h1 class="hero__title">Haven Stokes</h1>
+      <p class="hero__subtitle">5'10" • 170 lb • Shooting Guard</p>
+      <ul class="hero__tags">
+        <li>Slashing Finisher</li>
+        <li>Pure Jumper</li>
+        <li>Finesse Finger Roll</li>
+        <li>Slick Handles</li>
+        <li>Tenacious Defender</li>
+      </ul>
+      <div class="hero__cta">
+        <button id="playReelBtn" class="btn btn-primary">Play Full Reel</button>
+        <button id="muteBtn" class="btn">Mute</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="video-and-sidebar">
+      <div class="video__wrapper">
+        <div id="player"></div>
+        <div class="video__meta">
+          <h2 id="reelTitle">Highlight Reel</h2>
+          <p id="reelDate" class="muted"></p>
+        </div>
+      </div>
+      <aside class="sidebar">
+        <h3>Clips</h3>
+        <ul id="clipList" class="clip-list"></ul>
+        <div class="stats">
+          <h3>Impact Snapshot</h3>
+          <div id="statsGrid" class="stats-grid"></div>
+          <h3>Skill Spotlights</h3>
+          <ul class="skills">
+            <li><span>Slash to the basket</span><div class="bar bar--drive"></div></li>
+            <li><span>Pretty jumpshot</span><div class="bar bar--jumper"></div></li>
+            <li><span>Finesse finger roll</span><div class="bar bar--finger"></div></li>
+            <li><span>Spectacular dribbling</span><div class="bar bar--handle"></div></li>
+            <li><span>Tenacious defense</span><div class="bar bar--defense"></div></li>
+          </ul>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>Built from highlight.json • © <span id="year"></span></span>
+  </footer>
+
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
