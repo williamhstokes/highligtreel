@@ -1,0 +1,85 @@
+{
+  "highlight_reel_title": "Haven Stokes — Greensboro NC | 30s Highlight Reel",
+  "date_created": "2025-09-01",
+  "source_video_url": "",
+  "clips": [
+    {
+      "clip_id": "intro_000",
+      "timestamp_start": "00:00",
+      "timestamp_end": "00:03",
+      "description": "Title card with name and role",
+      "event_type": "title",
+      "player_involved": {
+        "name": "Haven Stokes",
+        "team": "Greensboro, NC"
+      },
+      "stats_relevant": {}
+    },
+    {
+      "clip_id": "skill_001",
+      "timestamp_start": "00:03",
+      "timestamp_end": "00:12",
+      "description": "Slashing drive to the basket finishing with finesse finger roll",
+      "event_type": "layup",
+      "player_involved": {
+        "name": "Haven Stokes",
+        "team": "Greensboro, NC"
+      },
+      "stats_relevant": {
+        "points": 2
+      }
+    },
+    {
+      "clip_id": "skill_002",
+      "timestamp_start": "00:12",
+      "timestamp_end": "00:20",
+      "description": "Extraordinary dribbling sequence, hesitation + behind-the-back into pull-up",
+      "event_type": "handles",
+      "player_involved": {
+        "name": "Haven Stokes",
+        "team": "Greensboro, NC"
+      },
+      "stats_relevant": {}
+    },
+    {
+      "clip_id": "skill_003",
+      "timestamp_start": "00:20",
+      "timestamp_end": "00:27",
+      "description": "Catch-and-shoot 3 from the wing",
+      "event_type": "three_pointer",
+      "player_involved": {
+        "name": "Haven Stokes",
+        "team": "Greensboro, NC"
+      },
+      "stats_relevant": {
+        "points": 3
+      }
+    },
+    {
+      "clip_id": "outro_000",
+      "timestamp_start": "00:27",
+      "timestamp_end": "00:30",
+      "description": "Outro card with measurables and contact",
+      "event_type": "outro",
+      "player_involved": {
+        "name": "Haven Stokes",
+        "team": "Greensboro, NC"
+      },
+      "stats_relevant": {}
+    }
+  ],
+  "player_profile": {
+    "name": "Haven Stokes",
+    "height": "5'10\"",
+    "weight_lb": 170,
+    "position": "Shooting Guard",
+    "city": "Greensboro",
+    "state": "NC",
+    "strengths": [
+      "Slashing to the basket",
+      "Extraordinary dribbling skills",
+      "Finesse finger roll"
+    ]
+  }
+}
+
